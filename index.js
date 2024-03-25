@@ -6,5 +6,5 @@ app.get('/',(req,res)=> {
     res.send("HELLO BONGUT")
 })
 app.listen(port, ()=>{
-    console.log("server is live on port number",port);
+    console.log("server is live on port",port);
 })
